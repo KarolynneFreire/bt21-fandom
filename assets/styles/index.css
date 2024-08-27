@@ -249,3 +249,50 @@ footer {
       margin-bottom: 20px;
   }
 }
+
+.image-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.image-section img {
+  max-width: 100%;
+  height: auto;
+}
+
+.cards-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  border-top: 10px solid #A020F0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 15px;
+  padding: 20px;
+  flex: 1 1 300px; /* Responsivo: cada card ocupa no mínimo 300px de largura */
+  max-width: 300px; /* Largura máxima para manter uniformidade */
+  box-sizing: border-box;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover{
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.card p {
+  color: #666;
+}
+
+.card h3 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
